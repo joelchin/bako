@@ -2,17 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-
-.btn {
-color: #0000ff;
-border-color: #0000ff;
-// background-color: #008CBA;
-}
-
-
-.btn:hover {
-color: #0bb6e1cc;
-text-decoration: none;
-background-color: #7c940ea1;
-border-color: #0000ff;
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #991515, #159957);
 }
